@@ -1,0 +1,161 @@
+.verde-conalep{
+    color: #fff;
+    background-color: #01735e !important;
+}
+.verde-item{
+    color: #01735e !important;
+}
+.alert-s {
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+input[name="fecha_inicial"]:focus.invalid~label:after,
+input[name="fecha_inicial"].invalid~label:after {
+  content: attr(data-error);
+  color: #F44336;
+  opacity: 1;
+}
+input[name="fecha_inicial"]:focus~label:after,
+input[name="fecha_inicial"]~label:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 36px;
+  opacity: 0;
+  white-space: pre;
+  transition: .2s opacity ease-out, .2s color ease-out;
+}
+input[name="fecha_final"]:focus.invalid~label:after,
+input[name="fecha_final"].invalid~label:after {
+  content: attr(data-error);
+  color: #F44336;
+  opacity: 1;
+}
+input[name="error"]:focus.invalid2~label:after,
+input[name="error"].invalid2~label:after {
+  content: attr(data-error);
+  color: #F44336;
+  opacity: 1;
+}
+input[name="fecha_final"]:focus~label:after,
+input[name="fecha_final"]~label:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 36px;
+  opacity: 0;
+  white-space: pre;
+  transition: .2s opacity ease-out, .2s color ease-out;
+}
+input[name="nombre"]:focus.invalid~label:after, input[name="apellido"]:focus.invalid~label:after, input[name="email"]:focus.invalid~label:after, input[name="reEmail"]:focus.invalid~label:after, input[name="password"]:focus.invalid~label:after, input[name="rePassword"]:focus.invalid~label:after, input[name="passwordNuevo"]:focus.invalid~label:after, input[name="passwordNuevo"]:focus.invalid~label:after, input[name="numeroEmpleado"]:focus.invalid~label:after, input[name="telefono"]:focus.invalid~label:after, input[name="matricula"]:focus.invalid~label:after,
+input[name="nombre"].invalid~label:after, input[name="apellido"].invalid~label:after, input[name="email"].invalid~label:after, input[name="reEmail"].invalid~label:after, input[name="password"].invalid~label:after, input[name="rePassword"].invalid~label:after, input[name="passwordNuevo"].invalid~label:after, input[name="rePasswordNuevo"].invalid~label:after, input[name="numeroEmpleado"].invalid~label:after , input[name="telefono"].invalid~label:after, input[name="matricula"].invalid~label:after {
+  content: attr(data-error);
+  color: #F44336;
+  opacity: 1;
+  font-weight: bolder;
+}
+.register .far {
+    float: right;
+    margin-right: 10px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.img-logo{
+    width: 20vh;
+}
+/*********Sidebar*********/
+.side-nav{
+    background-color: #01735e;
+}
+.side-nav .search-form input[type="text"]{
+    border-top: 1px solid rgba(255, 255, 255, 0.65) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65) !important;
+} 
+.side-nav .collapsible a {
+    height: 50px;
+    font-size: 1rem;
+    border-bottom: #fff 1px groove;
+}
+.navbar{
+    background-color: #007E67;
+}
+
+/*********tabla*********/
+.add{
+    float: right;
+}
+table {
+    border-collapse: separate !important;
+}
+table.table td {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+/*********Botones*********/
+.btn-add{
+        font-weight: 600;
+        font-size: 0.9em;
+        color: #fff;
+        background-color: #007E67;
+        letter-spacing: 0.1em;
+}
+.fa-plus-circle{
+    font-size: 1.5em;
+}
+.btn-atras{
+    font-size: 35px; 
+    color: #007E67;
+}
+.btn-success{
+    background-color: #007E67 !important;
+}
+/*********Footer*********/
+.page-footer{
+    padding-left: 0px !important;
+}
+.footer-copyright{
+    width: 100%;
+}
+/*********Calendar*********/
+#calendar {
+    max-width: 90%;
+    color: #01735e;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+#calendar .fc-content{
+    background-color: transparent !important;
+    white-space: normal;
+}
+.fc .fc-toolbar > * > :first-child{
+    text-transform:capitalize !important;
+}
+.fc .fc-state-active{
+    background-color: #01735e;
+    color: #fff !important;
+}
+.fc .fc-state-default {
+    border-color: #01735e;
+    color: #01735e;
+}
+.note {
+    border: none;
+}
+.display-4{
+    border-radius: 5px;
+}
+.label-select {
+    font-family: "Roboto", sans-serif !important;
+    font-size: 1rem !important;
+    top: -0.5rem !important;
+    font-weight: 400 !important;
+    color: #616161 !important;
+}
